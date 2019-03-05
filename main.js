@@ -91,8 +91,9 @@ function sideMenuBack(event) {
 
 function fjernKaraktererSlide(event) {
     playSelection.classList.add("playSelectionNew");
-    karakterSlide.style.opacity = "0";
+   /* karakterSlide.style.opacity = "0";*/
     menuKarakterne.style.color = "rgb(124, 124, 124)"; 
+    karakterSlide.classList.remove("karakterSlideNew"); 
 }
 
 /* Event Listeners */
