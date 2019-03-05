@@ -91,7 +91,6 @@ function sideMenuBack(event) {
 
 function fjernKaraktererSlide(event) {
     playSelection.classList.add("playSelectionNew");
-   /* karakterSlide.style.opacity = "0";*/
     menuKarakterne.style.color = "rgb(124, 124, 124)"; 
     karakterSlide.classList.remove("karakterSlideNew"); 
 }
@@ -102,5 +101,5 @@ intro.addEventListener("click", moveIntroUp);
 karakterer.addEventListener("click", bringInKarakterSlide);
 ibsensUnivers.addEventListener("click", removeUnivers); 
 stykkene.addEventListener("click", openPlaySelection);
-tilbake.addEventListener("click", fjernKaraktererSlide)
+tilbake.addEventListener("click", fjernKaraktererSlide);
 /*sidemenu.addEventListener("click", sideMenuBack); */
